@@ -1,0 +1,17 @@
+Package: violeta
+Type: Package
+Title: Create a package in R to have a linear model
+Version: 1.0
+Date: 2015-09-23
+Author: Yixuan xu & Violeta García Sáez
+Maintainer: Violeta <vioga273@student.liu.se>
+Description: Implement the calculations using ordinary linear algebra, Implement the results as an RC class object
+License: CC0
+Depends: R (>= 3.1.0)
+Imports: 
+    ggplot2,
+    grid,
+    gridExtra
+Suggests: testthat,
+    knitr
+VignetteBuilder: knitr
